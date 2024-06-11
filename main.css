@@ -1,0 +1,85 @@
+:root {
+  --background: #140f07;
+  --background_variant: #17264b;
+  --background_section: #455dad;
+  --other: #455dad;
+  --details: #819ffb;
+  --font: #d1ecf7;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: var(--font);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+}
+
+main {
+  background-color: var(--background_variant);
+  max-width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+}
+
+#content h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin: 10px;
+}
+
+#content p {
+  font-size: 1.1rem;
+  text-align: center;
+  width: fit-content;
+  margin: 10px;
+  line-height: 1.5rem;
+}
+
+#content a {
+  width: fit-content;
+  background-color: var(--background);
+  color: var(--font);
+  padding: 0.3rem 2rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  margin: 10px;
+}
+
+#imagen {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+#imagen picture img {
+  border-radius: 1.1rem;
+}
+
+#description {
+  background-color: var(--background_variant);
+  max-width: 1300px;
+}
+
+#description p {
+  margin: auto;
+  line-height: 1.5rem;
+  text-align: center;
+  width: 45%;
+}
